@@ -1,0 +1,109 @@
+.hero {
+    margin-top: 50px;
+
+    .container {
+        background: url("../../img/birbalo.jpg");
+        width: 1280px;
+        height: 600px;
+    }
+
+    &_h1 {
+        color: #FEFCF7;
+        font-family: "Fraunces";
+        font-size: 72px;
+        font-style: normal;
+        font-weight: 900;
+        line-height: 72px;
+    }
+
+    &_p {
+        color: #FEFCF7;
+        font-family: "Barlow";
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 26px;
+    }
+
+    &_button {
+        font-style: normal;
+        background-color: #66D2CF;
+        width: 280;
+        height: 56px;
+        border-radius: 5px;
+        margin-top: 30px;
+    }
+}
+
+.p {
+    color: #FEFCF7;
+    text-align: center;
+    font-family: "Fraunces";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 25px;
+    padding: 0px 20px;
+}
+
+.all {
+    padding-top: 50px;
+    padding-left: 50px;
+}
+
+@media only screen and (max-width:768px) {
+    .hero .container {
+        background: url("../../img/Bitmap.jpg") no-repeat, cover;
+        height: 500px;
+        width: 689px;
+    }
+
+    .hero_h1 {
+        color: #FEFCF7;
+        font-family: "Fraunces";
+        font-size: 48px;
+        font-style: normal;
+        font-weight: 900;
+        line-height: 48px;
+    }
+
+    .hero_p {
+        color: #FEFCF7;
+        font-family: "Barlow";
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 25px;
+    }
+}
+
+@media only screen and (max-width:375px) {
+    .hero .container {
+        background: url("../../img/Bitmap.jpg") no-repeat, cover;
+    }
+    
+    .hero_h1 {
+        color: #FEFCF7;
+        text-align: center;
+        font-family: "Fraunces";
+        font-size: 40px;
+        font-style: normal;
+        font-weight: 900;
+        line-height: 40px;
+        text-align: center;
+    }
+
+    .hero_p {
+        color: #FEFCF7;
+        text-align: center;
+        font-family: "Barlow";
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 25px;
+        text-align: center;
+    }
+    .hero_button{
+        margin-left: 200px;
+    }
+}
