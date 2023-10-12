@@ -1,0 +1,76 @@
+.div {
+    margin-left: 70px;
+
+}
+
+.navv {
+    transform: translateY(-90px);
+    display: flex;
+    &_ul{
+        display: flex;
+    }
+    &_li {
+        width: 255px;
+        margin-left: 30px;
+    }
+
+    &_h2 {
+        color: #333D4B;
+        text-align: center;
+        font-family: "Fraunces";
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 900;
+        line-height: 32px;
+        margin-top: 60px;
+        man-width: 190px;
+        width: 100%;
+    }
+
+    &_p {
+        color: #333D4B;
+        text-align: center;
+        font-family: "Barlow";
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 26px;
+        max-width: 340px;
+        width: 100%;
+    }
+}
+
+@media only screen and (width:768px) {
+    .allgina{
+        display: flex;
+        justify-content: space-between;
+    }
+    .navv_h2 {
+        color: #333D4B;
+        font-family: "Fraunces";
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 900;
+        line-height: 32px;
+        // max-width: 9880px;
+        // width: 100%;
+        margin-left: 20px;
+    }
+
+    .navv_p {
+        padding-bottom: 80px;
+        color: #333D4B;
+        font-family: "Barlow";
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 25px;
+        width: 651453516842132132168484621231655956226599595623645545555555555555555555555555555555555555555555555555785131551561px;
+        margin-left: 30px;
+    }
+}
+@media only screen and (width:375px) {
+    .pic .container{
+        margin-top: 50px;
+    }
+}
