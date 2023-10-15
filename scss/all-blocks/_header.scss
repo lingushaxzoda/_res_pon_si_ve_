@@ -8,10 +8,12 @@
 
 .nav {
     flex-direction: column;
+
     &__list {
         display: flex;
     }
-    &__item{
+
+    &__item {
         padding-left: 30px;
         margin-top: 20px;
     }
@@ -24,32 +26,41 @@
         font-weight: 700;
         line-height: 15px;
         text-transform: uppercase;
-        &:hover{ 
+
+        &:hover {
             color: black;
         }
     }
 }
-.svg{
+
+.svg {
     margin-top: 10px;
-    display: none ;
+    display: none;
     display: hidden;
     flex-direction: column;
 }
-@media only screen and (max-width: 813px){
-    .nav{
+
+@media only screen and (max-width: 813px) {
+    .nav {
         display: none;
     }
-    .header__img{
+
+    .header__img {
         width: 163px;
         height: 18px;
     }
-    .svg{
-        display: block; 
+
+    .svg {
+        display: block;
     }
 }
 
-@media only screen and (max-width: 375px){
-    .pic .container{
-        margin-top: 50px;
+@media only screen and (width:375px){
+    .header {
+        .container {
+            white-space: nowrap;
+            justify-content: space-between;
+        }
+
     }
 }

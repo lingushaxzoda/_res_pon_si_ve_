@@ -1,0 +1,126 @@
+.why .container {
+    max-width: 1280px;
+    width: 100%;
+    height: 573px;
+    background-color: #2C343E;
+}
+
+.why_heading {
+    padding-top: 50px;
+}
+
+.why_h3 {
+    color: #FEFCF7;
+    text-align: center;
+    font-family: "Fraunces";
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 48px;
+}
+
+.why_p {
+    color: #FEFCF7;
+    text-align: center;
+    font-family: "Barlow";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.why_list {
+    display: flex;
+    gap: 30px;
+    margin-left: 25px;
+}
+
+.why_item {
+    width: 350px;
+    height: 382px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    background: #0E8784;
+}
+
+.why_bold {
+    color: #FEFCF7;
+    text-align: center;
+    font-family: "Fraunces";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 32px;
+    margin: 0;
+    padding: 0;
+    padding-top: 56px;
+}
+
+.why_text {
+    max-width: 255px;
+    width: 100%;
+    color: #FEFCF7;
+    text-align: center;
+    font-family: "Barlow";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    margin: 0;
+    padding: 0;
+    margin-top: 24px;
+    margin-left: 50px;
+}
+
+.why_img {
+    padding-left: 135px;
+    margin-top: 70px;
+}
+
+@media only screen and (width:768px) {
+    .why .container {
+        max-width: 688px;
+        width: 100%;
+    }
+
+    .why_list {
+        flex-direction: column;
+    }
+
+    .why_item {
+        display: flex;
+        gap: 50px;
+        width: 573px;
+        height: 180px;
+    }
+
+    .for_img {
+        picture-in-picture: none;
+        align-items: start;
+    }
+
+    .why_bold {
+        white-space: nowrap;
+        text-align: start;
+        margin-left: 50px;
+    }
+
+    .why_span {
+        transform: translateX(-1520px);
+        transform: translateY(-30px);
+    }
+
+    .why_text {
+        text-align: start;
+    }
+}
+
+@media only screen and (width:375px) {
+    .why .container {
+     max-width: 375px;
+     width: 100%;
+}
+.why_list{
+    flex-direction: column;
+}
+}

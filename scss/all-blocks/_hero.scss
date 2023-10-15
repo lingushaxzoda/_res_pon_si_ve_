@@ -79,10 +79,12 @@
 
 @media only screen and (max-width:375px) {
     .hero .container {
-        background: url("../../img/Bitmap.jpg") no-repeat, cover;
+        background: url("../../img/Bitmap\(3\).jpg") no-repeat, cover;
         margin-bottom: 800px;
+        width: 327px;
+        height: 500px;
     }
-    
+
     .hero_h1 {
         color: #FEFCF7;
         text-align: center;
@@ -104,7 +106,8 @@
         line-height: 25px;
         text-align: center;
     }
-    .hero_button{
+
+    .hero_button {
         margin-left: 200px;
     }
 }
